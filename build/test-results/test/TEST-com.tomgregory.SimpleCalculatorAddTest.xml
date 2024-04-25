@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tomgregory.SimpleCalculatorAddTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-04-25T05:07:55" hostname="Bhavya-Goswami.local" time="0.002">
+  <properties/>
+  <testcase name="mixedSignNumbersAdditionTest" classname="com.tomgregory.SimpleCalculatorAddTest" time="0.001"/>
+  <testcase name="largeNumbersAdditionTest" classname="com.tomgregory.SimpleCalculatorAddTest" time="0.0"/>
+  <testcase name="additionWithZeroTest" classname="com.tomgregory.SimpleCalculatorAddTest" time="0.001"/>
+  <testcase name="negativeNumbersAdditionTest" classname="com.tomgregory.SimpleCalculatorAddTest" time="0.0"/>
+  <testcase name="basicAdditionTest" classname="com.tomgregory.SimpleCalculatorAddTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

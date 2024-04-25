@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tomgregory.SimpleCalculatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-04-25T04:34:17" hostname="Bhavya-Goswami.local" time="0.001">
-  <properties/>
-  <testcase name="twoPlusTwoShouldEqaulFour" classname="com.tomgregory.SimpleCalculatorTest" time="0.001"/>
-  <testcase name="threePlusSevenShouldEqaulFour" classname="com.tomgregory.SimpleCalculatorTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
