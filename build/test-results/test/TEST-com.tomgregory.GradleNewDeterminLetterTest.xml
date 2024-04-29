@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tomgregory.GradleNewDeterminLetterTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-04-29T06:04:07" hostname="Bhavya-Goswami.local" time="0.005">
+  <properties/>
+  <testcase name="testBoundaryAt60" classname="com.tomgregory.GradleNewDeterminLetterTest" time="0.003"/>
+  <testcase name="testBoundaryAt69" classname="com.tomgregory.GradleNewDeterminLetterTest" time="0.0"/>
+  <testcase name="testNegativeGradeInput" classname="com.tomgregory.GradleNewDeterminLetterTest" time="0.0"/>
+  <testcase name="testGradeJustBelow60" classname="com.tomgregory.GradleNewDeterminLetterTest" time="0.001"/>
+  <testcase name="testMiddleGradeForC" classname="com.tomgregory.GradleNewDeterminLetterTest" time="0.0"/>
+  <testcase name="testAboveTopBoundaryGrade" classname="com.tomgregory.GradleNewDeterminLetterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
