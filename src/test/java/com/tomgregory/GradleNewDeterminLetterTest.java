@@ -1,11 +1,4 @@
 
-// ********RoostGPT********
-/*
-
-roost_feedback [5/8/2024, 9:54:14 AM]:improve comments in the test code
-*/
-
-// ********RoostGPT********
 
 package com.tomgregory;
 import org.junit.Test;
