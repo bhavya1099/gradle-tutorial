@@ -3,6 +3,8 @@
 /*
 
 roost_feedback [5/9/2024, 4:33:21 PM]:write tests of all the use cases of the function
+
+roost_feedback [5/9/2024, 4:37:47 PM]:add test for the case if number is less than 0
 */
 
 // ********RoostGPT********
@@ -64,8 +66,13 @@ public class GradleNewDeterminLetterTest {
     }
     
     @Test
-    public void testHighGrade() {
+    public void testPerfectScore() {
         assertEquals('O', determinLetter(100));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testAboveMaximumGrade() {
+        determinLetter(101);
     }
 
     // Method under test
