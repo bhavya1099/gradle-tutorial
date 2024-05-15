@@ -67,32 +67,45 @@ Validation:
 */
 
 // ********RoostGPT********
+
 package com.tomgregory;
+
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class GradleNewDeterminLetterTest {
     @Test(expected = IllegalArgumentException.class)
     public void testNegativeNumberInput() {
+        // The method determinLetter(int) is not defined in this class. It should be either defined or imported.
+        // There should be a check in the determinLetter method to throw IllegalArgumentException when the input is a negative number.
         determinLetter(-5);
     }
     @Test
     public void testInputLessThanSixty() {
+        // The method determinLetter(int) is not defined in this class. It should be either defined or imported.
+        // The determinLetter method should return 'F' when the input is less than 60.
         char result = determinLetter(50);
         assertEquals('F', result);
     }
     @Test
     public void testInputBetweenSixtyAndSixtyNine() {
+        // The method determinLetter(int) is not defined in this class. It should be either defined or imported.
+        // The determinLetter method should return 'D' when the input is between 60 and 69.
         char result = determinLetter(65);
         assertEquals('D', result);
     }
     @Test
     public void testInputBetweenSeventyAndSeventyNine() {
+        // The method determinLetter(int) is not defined in this class. It should be either defined or imported.
+        // The determinLetter method should return 'C' when the input is between 70 and 79.
         char result = determinLetter(75);
         assertEquals('C', result);
     }
     @Test
     public void testInputGreaterThanEighty() {
+        // The method determinLetter(int) is not defined in this class. It should be either defined or imported.
+        // The determinLetter method should return 'O' when the input is greater than 80.
+        // If the test is failing, it could be due to incorrect business logic in the determinLetter method.
         char result = determinLetter(85);
         assertEquals('O', result);
     }
